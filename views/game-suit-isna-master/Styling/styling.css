@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9C835F;
+}
+nav {
+    display: flex;
+    color: #F9B23D;
+    padding-left: 37px;
+    padding-top: 27px;
+}
+
+.logo {
+    display: flex;
+    width: 38%;
+    list-style: none;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    width: 50%;
+   
+}
+.palyer1 {
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.COM {
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+}
+#vsmark {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 144px;
+    color: #BD0000;
+    font-weight: 700;
+}
+
+.refresh {
+    display: flex;
+    justify-content: center;
+}
+
+#batu-player:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: scale(110%);
+}
+#kertas-player:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: scale(110%);
+}
+#gunting-player:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: scale(110%);
+}
+#batu-com:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: scale(110%);
+}
+#kertas-com:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: scale(110%);
+}
+#gunting-com:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: scale(110%);
+}
+#refresh:hover{
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    transform: scale(110%);
+}

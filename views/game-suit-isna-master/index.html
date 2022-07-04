@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="Styling/styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <li><img src="assets/back.png" alt="back" width="40px" height="40px"></li>
+            <li><img src="assets/logo.png" alt=" logo" width="72px" height="72px"></li>
+            <li><p> ROCK PAPER SCISSORS</p></li>
+        </div>
+
+    </nav>
+
+    <section class="main">
+        <div class="game">
+           <div class="palyer1">
+               <div>PLAYER</div>
+               <div class="option" onclick="pickOption('batu')"><img src="assets/batu.png" alt="batu-player" width="128px" height="92px" id="batu-player"></div>
+               <div class="option" onclick="pickOption('kertas')"><img src="assets/kertas.png" alt="kertas-player" width="115px" height="150px" id="kertas-player"></div>
+               <div class="option" onclick="pickOption('gunting')"><img src="assets/gunting.png" alt="gunting-player" width="134px" height="160px" id="gunting-player"></div>
+            </div>
+            <div class="vs">
+                <div id="vsmark" class="vsmark1">VS</div>
+                <div class="summary">
+                    <!-- <h1 class="title">MATCH RESULT</h1>
+                    <br />
+                    <h1 id="inGame"></h1> -->
+                    <h3 id="result"></h3>
+                </div>
+            </div>
+            <div class="COM">
+                <div>COM</div>
+                <div><img src="assets/batu.png" alt="batu-com" width="128px" height="92px" id="batu-com"></div>
+                <div><img src="assets/kertas.png" alt="kertas-com" width="115px" height="150px"  id="kertas-com"></div>
+                <div><img src="assets/gunting.png" alt="gunting-com" width="134px" height="160px" id="gunting-com"></div>
+            </div> 
+        </div>
+    </section>
+    <section class="refresh1">
+        <div class="refresh" id="refresh">
+            <div><img src="assets/refresh.png" alt="refesh" width="70px" height="70px" id="refresh"></div>
+        </div>
+    </section>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

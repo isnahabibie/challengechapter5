@@ -1,0 +1,810 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*navbar*/
+
+.navigationbar{
+	background-size: cover;
+	min-height: 100vh;
+
+    position: relative;
+
+}
+#idnavbar-1{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-left: 5%;
+}
+#idnav-link-1{
+	padding-left: 10%;
+}
+#idnav-link-2{
+	padding-left: 10%;
+}
+
+ul > li.nav-item {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+  }
+#idnavbar-brand-1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+}
+  
+  h1 {
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .h1-page1 {
+	margin-top: 150px;
+	font-size: 72px;
+	font-weight: 700;
+  }
+  
+  .p-page1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	padding-top: 50px;
+	font-weight: 400;
+	letter-spacing: 0.1rem;
+	margin-bottom: 0;
+  }
+  
+  .btn-style {
+    font-size: 16px !important;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700 !important;
+    margin-top: 5%;
+    }
+
+  .scroll-down {
+	font-size: 12px;
+	font-weight: 600;
+  }
+
+
+
+/*page2*/
+
+.container-page-2 {
+  height: 1051px;
+  background-image: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%), url(assets/the-games-bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  position: relative;
+  top: 255px;
+  left: 83.5px;
+}
+
+.pict-carousel{
+  width: 858px;
+  height: 477px;
+  position: relative;
+  top: 292.5px;
+  right: -130px;
+
+}
+.text h3 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.text h1 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 13px;
+
+}
+
+.page-3{
+height: 870px;
+background-image: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%), url(assets/features.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.game-features{
+color: #FFFFFF;
+position: relative;
+top: 25vh;
+left: 60vw;
+}
+
+.text-desc h3 {
+font-family: 'Arial', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 2px;
+}
+
+.text-feature {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.text-desc h1{
+font-family: 'Arial', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 40px;
+color: #FFFFFF;
+}
+
+.detail-features{
+display: flex;
+
+}
+
+.bullet-features{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+position: relative;
+right: 30px;
+top: -12px;
+}
+
+.bullet-features > .bullet2, .bullet3{
+position: relative;
+top: 67px;
+}
+
+.bullet-features .bullet3{
+position: relative;
+top: 55px;
+}
+
+.progress-bar-features {
+position: relative;
+right: 40px;
+top: 65px;
+}
+.detail-features li{
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+letter-spacing: 2px;
+margin-top: 48px;
+margin-bottom: 20px;
+
+color: #FFB548;
+}
+
+.detail-features dl {
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+text-align: justify;
+width: 362px;
+height: 60px;
+}
+
+/*page4*/
+
+.page4-systReq {
+  height: 960px;
+  background-image: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%),url(assets/requirements.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  }
+  
+  .page4-systReq > .text-desc h3{
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  top: 145px;
+  
+  color: #FFFFFF;
+  }
+  
+  .page4-systReq > .text-desc h1{
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  
+  width: 633px;
+  height: 73px;
+  position: relative;
+  top: 230px;
+  left: 132px;
+  
+  color: #FFFFFF;
+  }
+  
+  .detail-req > .table{
+  width: 573px;
+  height: 400px;
+  color: #FFFFFF;
+  }
+  
+  .detail-req > table, tr, td {
+  border: 1px solid #979797;
+  }
+  
+  .table td h3 {
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 15px;
+  margin-bottom: 7.3px;
+  margin-left: 10px;
+  
+  letter-spacing: 2px;
+  color: #FFB548;
+  }
+  
+  .table td p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 10px;
+  }
+  
+  .table td p {
+  width: 257px;
+  height: 45px;
+  }
+  
+  .table td .colspan p{
+  width: 514px !important;
+  height: 53px !important;
+  }
+  
+  .detail-req {
+  position: relative;
+  top: 290px;
+  left: 122px;
+  }
+  /*page5*/
+  
+  .page5-topscore {
+    height: 960px;
+    background-image: url(assets/top-score-bg.png), url(assets/bg\ image\ 5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    }
+    
+    .page5-topscore .text-desc{
+    margin-top: 340px;
+    margin-left: -80px;
+    
+    }
+    
+    .c.page5-topscore .text-desc > h1{
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    }
+    
+    .page5-topscore .text-desc > p {
+      color: #FFFFFF;
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 70px;
+      width: 380px;
+      height: 57px;
+      }
+      
+      .page5-topscore .text-desc > button {
+      width: 260px;
+      height: 60px;
+      background-image: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+      border-radius: 4px;
+      
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      
+      text-align: center;
+      text-transform: lowercase;
+      color: #1A1917;
+      }
+      .quotes > .card-1, .card-2, .card-3 {
+        width: 452px;
+        height: 205px;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        top: 190px;
+        background-image: url(assets/twitter.svg);
+        background-position: 414.5px 30px;
+        background-repeat: no-repeat;
+        
+        
+        }
+        
+        .quotes > .card-1, .card-3{
+        right: 0px;
+        }
+        
+        .quotes > .card-2 {
+        right: 144px;
+        }
+        
+        .quote {
+        background-image: url(assets/Ellipse.png);
+        background-repeat: no-repeat;
+        position: relative;
+        left: 23px;
+        top: 15px;
+        }
+        
+        .profile-identity{
+        position: relative;
+        top: 10px;
+        }
+        .quotes .profile-identity > h3{
+        font-family: 'Arial', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 2px;
+        margin-left: 90px;
+        
+        color: #FFB548;
+        }
+        
+        .quotes .profile-identity > p{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        /* or 122% */
+        margin-left: 90px;
+        
+        text-align: justify;
+        
+        
+        color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .quotes .testimoni> p {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        width: 360px;
+        height: 60px;
+        margin-left: -5px;
+        margin-top: 40px;
+        color: #FFFFFF;
+        }
+        
+        .quotes .testimoni .date{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        margin-left: -5px;
+        margin-bottom: 21.3px;
+        
+        color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .profile-pict1, .profile-pict2, .profile-pict3 {
+        width: 65px;
+        height: 65px;
+        border-radius: 100%;
+        position: absolute;
+        left: -8px;
+        z-index: 1;
+        }
+        
+        footer  {
+        background: #25252d;
+        background-image: url(/asset/newsletter.png);
+        }
+        
+        .border-footer {
+        border-bottom: solid white 1px;
+        }
+        
+        .foot-nav {
+        display: flex!important;
+        /* border-bottom: solid white 1px; */
+        }
+        
+        .main-nav {
+        color: white;
+        display: flex; 
+        }
+        
+        .main-nav-text {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        }
+        
+        .main-nav-social {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-left: 1.5rem;
+        }
+        .content-copyright {
+          letter-spacing: 0.1em;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          text-transform: capitalize;
+          margin-right: auto!important;
+          color: #FFFFFF;
+          opacity: 0.5;
+          }
+          
+          .content-information {
+          letter-spacing: 0.1em;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 16px;
+          margin-left: auto!important;
+          color: white;
+          text-transform: uppercase;
+          }
+          
+          .footer-wrapper {
+          display: flex;
+          width: calc(100% - 2rem);
+          max-width: 69.875rem;
+          flex-flow: column wrap;
+          margin: 0 auto;
+          padding-top: 4.625rem;
+          padding-bottom: 1.5rem;
+          }
+          
+          .footer-wrapper .foot-section {
+          flex: 1;
+          }
+          
+          .footer-wrapper .foot-section-title {
+          margin-bottom: 2.25rem;
+          text-align: center;
+          font-family: "Ubuntu", sans-serif;
+          font-size: 0.95rem;
+          font-weight: 500;
+          color: white;
+          }
+          
+          .footer-wrapper .foot-section-list {
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          padding-bottom: 3.375rem;
+          font-family: "Ubuntu", sans-serif;
+          font-size: 0.95rem;
+          font-weight: 500;
+          color: #c8c8cb;
+          }
+          
+          .footer-wrapper .foot-section-list .list-item {
+          width: max-content;
+          margin-bottom: 1rem;
+          }
+          
+          a.list-item_link:hover {
+          color: rgb(204, 85, 16);
+          text-decoration: underline;
+          }
+/*Subscribe*/
+
+.bg-color {
+  background-color: #080A0B;
+}
+.container-subscribe {
+  height: 960px;
+  background-image: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%), url(assets/skull.png);
+  background-size: 445px 694px;
+  background-repeat: no-repeat;
+  background-position: 160px 50px;
+}
+
+.text-subs {
+  position: relative;
+  top: 136px;
+  left: 675px;
+  color: #FFFFFF;
+
+}
+
+.text-subs h3{
+  width: 262px;
+  height: 28px;
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+}
+
+.text-subs h1{
+  width: 677px;
+  height: 76px;
+  font-family: 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 75px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  margin-top: 45px;
+  margin-left: -4px;
+}
+
+.text-subs p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 645px;
+  height: 137px;
+  margin-top: 90px;
+  margin-left: -4px;
+}
+
+.submit{
+  display: flex;
+  flex-direction: row;
+}
+.form{
+  padding: 5px;
+  width: 366px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 19px;
+  text-align: left;
+  background-image: rgba(255, 255, 255, 0.08);
+  border-radius: 5px;
+}
+
+.btn {
+  width: 260px;
+  height: 60px !important;
+}
+
+#last-page{
+  font-family: "Open Sans";
+  background-color: black;
+  background-image: url(./assets/top-score-bg\(2\).png);
+  background-size: 100% 100%;
+  color : white;
+  position: relative;
+  width: 100%;
+}
+
+#email{
+    font-size:18px;
+    background-color: transparent;
+    border:none;
+    padding-bottom: 5px;
+    color:white;
+}
+
+#email::placeholder
+{
+    color:#F0AD4E;
+}
+
+#subscribe{
+    font-size : 72px;
+    font-weight: 100;
+}
+
+#right-side
+{
+    margin-top : 60px;
+}
+
+.spacing {
+    margin-top: 20px;
+}
+
+#email-form{
+    margin-top : 40px;
+}
+
+.skull{
+    opacity: 70%;
+    border-radius: 20%;
+}
+
+.footer-link{
+    list-style: none;
+}
+
+.footer-font{
+  font-family: Arial;
+  font-size: 12px;
+  display:inline;
+  text-transform:uppercase;
+  font-weight:bold;
+  text-decoration: none;
+  color:white;
+}
+
+.footer-margin
+{
+  margin-top: 60px;
+  padding-bottom:40px;
+}
+
+#email{
+  font-size:18px;
+  background-color: transparent;
+  border:none;
+  padding-bottom: 5px;
+  color:white;
+}
+
+#email::placeholder
+{
+  color:#F0AD4E;
+}
+
+#subscribe{
+  font-size : 72px;
+  font-weight: 100;
+}
+
+#right-side
+{
+  margin-top : 60px;
+}
+
+.spacing {
+  margin-top: 20px;
+}
+
+#email-form{
+  margin-top : 40px;
+}
+
+.skull{
+  opacity: 70%;
+  border-radius: 20%;
+}
+
+.footer-link{
+  list-style: none;
+}
+
+.footer-font{
+font-family: Arial;
+font-size: 12px;
+display:inline;
+text-transform:uppercase;
+font-weight:bold;
+text-decoration: none;
+color:white;
+}
+
+.footer-margin
+{
+margin-top: 60px;
+padding-bottom:40px;
+}
